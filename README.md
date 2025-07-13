@@ -20,7 +20,7 @@ browsing, playing music, fetching news, and responding to user queries, powered 
 
 **Tech Stack** :
 
-- ``Python 3.10+`
+- `Python 3.10+`
 - `speech_recognition`
 - `pyttsx3`
 - `webbrowser`
@@ -77,7 +77,6 @@ python3 main.py
 
 - Pull requests are welcome.
 - Help required for voice input mode.
-- For related questions you can email me at tanishkputhran1@gmail.com
 
 **Notes** :
 
