@@ -6,7 +6,7 @@ import time
 import requests
 from google import genai
 import sys
-# activate virtual env using source .venv/bin/activate
+
 
 recognizer=sr.Recognizer()
 engine=pyttsx3.init()
