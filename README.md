@@ -1,6 +1,6 @@
 # FriedEgg - Sunny side up AI assistant
 
-FriedEgg is a Tony Stark inspired, voice-activated cum text-based virtual assistant designed to perform tasks such as web
+FriedEgg is a Tony Stark inspired, voice+text-based virtual assistant designed to perform tasks such as web
 browsing, playing music, fetching news, and responding to user queries, powered by Google Gemini 2.5-flash model.
 
 ---
@@ -54,24 +54,32 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ``` -->
 
-- Set your own API keys for Gemini and NewsAPI
+- Set your own API keys for Gemini and NewsAPI, can be hardcoded for personal use.
+
+---
 
 **Usage** :
 
+```bash
 python3 main.py
-(set to text-based mode by default)
+```
 
-**Troubleshooting** :
+**Project Structure** :
 
-- Check device mic input using test.py
+- main.py - Runs text-based mode by default. Voice code is included but commented out.
+- dev.py - for testing in DEV mode.
+- musicLibrary.py - a dictionary containing songs mapped to YouTube links, customizable by user. It is imported as a module in main.py
+- test.py - used to test mic input mainly in Linux machines.
 
 ---
 
 **Contributions** :
 
-- Pull requests are welcome. Help required for voice input mode.
+- Pull requests are welcome.
+- Help required for voice input mode.
+- For related questions you can email me at tanishkputhran1@gmail.com
 
-**Additional footnotes** :
+**Notes** :
 
-- TTS voice activated mode still under development, hence text-based set to default.
+- Voice activated mode unstable on Linux, hence text-based is set to default.
 - Issues with mic input on Linux machines to be fixed in future commits.
