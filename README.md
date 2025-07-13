@@ -82,3 +82,7 @@ python3 main.py
 
 - Voice activated mode unstable on Linux, hence text-based is set to default.
 - Issues with mic input on Linux machines to be fixed in future commits.
+
+**License** :
+
+This project is licensed under the [MIT License](LICENSE).
