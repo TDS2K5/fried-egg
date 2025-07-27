@@ -31,7 +31,7 @@ browsing, playing music, fetching news, and responding to user queries, powered 
 
 ---
 
-## 📦 Installation
+##  Installation
 
 > Python 3.10+ is recommended. Make sure `pip` is installed.
 
