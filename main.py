@@ -4,13 +4,13 @@ import pyttsx3
 import musicLibrary
 import time
 import requests
-from google import genai
+import google.generativeai as genai
 import sys
 
 
 recognizer=sr.Recognizer()
 engine=pyttsx3.init()
-DEV_MODE = True  # set to False to go full voice
+DEV_MODE = False  # set to False to go full voice
 
 def speak(text):
     engine.say(text)
