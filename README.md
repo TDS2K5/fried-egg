@@ -77,11 +77,11 @@ python3 main.py
 **Contributions** :
 
 - Pull requests are welcome.
-- Help required for voice input mode.
+- Queries addressed at tanishkputhran1@gmail.com
 
 **Notes** :
-~~- Voice activated mode unstable on Linux, hence text-based is set to default.~~
-~~- Issues with mic input on Linux machines to be fixed in future commits.~~
+- ~~ Voice activated mode unstable on Linux, hence text-based is set to default.~~
+- ~~ Issues with mic input on Linux machines to be fixed in future commits.~~
 - Stable release with all features working released on 1.8.25
 
 **License** :
