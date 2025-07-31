@@ -49,10 +49,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-<!-- Install dependencies :
-```bash
-pip install -r requirements.txt
-``` -->
 
 - Set your own API keys for Gemini and NewsAPI, can be hardcoded for personal use.
 
@@ -60,6 +56,11 @@ pip install -r requirements.txt
 
 **Usage** :
 
+Install dependencies :
+```bash
+pip install -r requirements.txt
+```
+Run the program :
 ```bash
 python3 main.py
 ```
@@ -79,9 +80,9 @@ python3 main.py
 - Help required for voice input mode.
 
 **Notes** :
-
-- Voice activated mode unstable on Linux, hence text-based is set to default.
-- Issues with mic input on Linux machines to be fixed in future commits.
+~~- Voice activated mode unstable on Linux, hence text-based is set to default.~~
+~~- Issues with mic input on Linux machines to be fixed in future commits.~~
+- Stable release with all features working released on 1.8.25
 
 **License** :
 
