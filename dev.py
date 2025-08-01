@@ -6,6 +6,7 @@ import musicLibrary
 import time
 import requests
 from google import genai
+from google.genai import types
 import sys
 
 recognizer=sr.Recognizer()
@@ -17,10 +18,10 @@ def speak(text):
     engine.runAndWait()
 
 def aiProcess(c):
-    client = genai.Client(api_key="AIzaSyAizhf6W1MNiXb_xM1cAHBCXnIwBAf329k")
+    client = genai.Client(api_key="AIzaSyBzFowyCcJP0UT1S_GeUxgzoxLlvvGO0CQ")
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash", contents=c)
+        model="gemini-2.5-pro", contents=c)
     print(response.text)
     speak(response.text)
     
