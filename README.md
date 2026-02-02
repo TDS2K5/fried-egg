@@ -1,6 +1,6 @@
 # FriedEgg - Sunny side up AI assistant
 
-FriedEgg is a Tony Stark inspired, voice+text-based virtual assistant designed to perform tasks such as web
+FriedEgg is an Iron Man inspired, voice+text-based virtual assistant designed to perform tasks such as web
 browsing, playing music, fetching news, and responding to user queries, powered by Google Gemini 2.5-flash model.
 
 ---
