@@ -18,7 +18,7 @@ def speak(text):
     engine.runAndWait()
 
 def aiProcess(c):
-    client = genai.Client(api_key="AIzaSyBzFowyCcJP0UT1S_GeUxgzoxLlvvGO0CQ")
+    client = genai.Client(api_key="")
 
     response = client.models.generate_content(
         model="gemini-2.5-pro", contents=command)
