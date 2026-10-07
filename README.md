@@ -74,11 +74,6 @@ python3 main.py
 
 ---
 
-**Contributions** :
-
-- Pull requests are welcome.
-- Queries addressed at tanishkputhran1@gmail.com
-
 **Notes** :
 - Stable release with all features working released on 1.8.25
 
