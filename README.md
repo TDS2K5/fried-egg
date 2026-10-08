@@ -77,6 +77,4 @@ python3 main.py
 **Notes** :
 - Stable release with all features working released on 1.8.25
 
-**License** :
 
-This project is licensed under the [MIT License](LICENSE).
